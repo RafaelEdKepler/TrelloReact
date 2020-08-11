@@ -18,12 +18,17 @@ export const ContainerRight = styled.div`
 
 export const Div = styled.div`
     width: 100%;
-    background-color: #4682B4;
+    background-color: #0067a3;
     height: 40px;
     flex-direction: row;        
     flex-wrap: nowrap; 
     display: flex;
-    justify-content: space-between;     
+    justify-content: space-between;
+    position: fixed;
+    margin: 0px 0px 25px 0px;
+    left: 0;
+    top: 0;
+
 `;
 
 export const DivImage = styled.div`
@@ -48,7 +53,7 @@ export const ButtonMenu = styled.button`
     border-width: 0px;    
     border-radius: 5px;    
     margin: 3px 3px 3px 3px;
-    background-color: #6495ED;
+    background-color: #4d95bf;
 `;
 
 export const ButtonIcon = styled.button`
@@ -57,12 +62,12 @@ export const ButtonIcon = styled.button`
     border-width: 0px;
     border-radius: 15px;
     margin: 3px 3px 3px 3px;
-    background-color: #6495ED;
+    background-color: #4d95bf;
 `;
 
 export const SearchInput = styled.button`
     opacity: 1;
-    background-color: #6495ED;
+    background-color: #4d95bf;
     height: 30px;
     width: 200px;    
     border-width: 0px;

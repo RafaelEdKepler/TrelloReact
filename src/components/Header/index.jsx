@@ -1,6 +1,6 @@
 import React from "react";
 import {ContainerLeft, ButtonMenu, SearchInput, Div, ContainerRight, Logo, DivImage, ButtonIcon} from "./style";
-import trello from "./../../assets/trello.png"
+import trello from "./../../assets/trello.png";
 
 const Header = () => {
     return (
